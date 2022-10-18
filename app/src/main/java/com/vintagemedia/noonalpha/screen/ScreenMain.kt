@@ -18,5 +18,25 @@ fun ScreenMain() {
             LoginPage(navController = navController)
             //ReplaceForTesting(navController = navController)
         }
+        composable(Routes.Feed.route) {
+            Feed(navController = navController)
+            //ReplaceForTesting(navController = navController)
+        }
+        composable(Routes.Login.route) {
+            Cart(navController = navController)
+            //ReplaceForTesting(navController = navController)
+        }
+        composable(Routes.Login.route) {
+            Upload(navController = navController)
+            //ReplaceForTesting(navController = navController)
+        }
+        composable(Routes.Login.route) {
+            Message(navController = navController)
+            //ReplaceForTesting(navController = navController)
+        }
+        composable(Routes.Login.route) {
+            Profile(navController = navController)
+            //ReplaceForTesting(navController = navController)
+        }
     }
 }
